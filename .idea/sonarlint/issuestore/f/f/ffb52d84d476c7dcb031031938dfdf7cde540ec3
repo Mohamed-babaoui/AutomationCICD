@@ -1,0 +1,13 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–á‹ÃşÿÿÿÿJ$d955e678-abfc-46b0-97b3-f271a6271019
+“	java:S116"XRename this field "TobeInvisible" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇˆïßJ$960cb211-a261-4466-8cd0-7169e98bdca7
+s
+java:S2387"7"driver" is the name of a field in "AbstratComponents".(æ¹•‹J$1123637e-7bc9-435a-bc72-ddfabbfb89d7
+	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿¼ëİüÿÿÿÿJ$7f05539d-fd4b-43d5-9cfc-c795ddd4da18
+f	java:S1062"+Replace this use of System.out by a logger.(ÂµËJ$736a0dfb-c5ad-45cd-9c78-8af319634d5d
+w	java:S1253"<This block of commented-out lines of code should be removed.(¬ä×J$ba4fad57-4d88-4f9d-afaf-44d1e38bcc5b
+k	java:S1066"+Replace this use of System.out by a logger.(¥«ÕèúÿÿÿÿJ$983ef68e-198f-4fa0-ae30-b3ee37590c50
+|	java:S125:"<This block of commented-out lines of code should be removed.(ˆºüÜúÿÿÿÿJ$805a6ed2-398a-4802-a8b8-ec4c7e5e8a7e
+‰	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡£€¡J$52e9f0fc-46b7-48c4-98d8-1484ff5ed2c1
+³
+java:S1128"rRemove this unused import 'org.apache.commons.compress.compressors.lz77support.AbstractLZ77CompressorInputStream'.(ı¨•ÛùÿÿÿÿJ$3e6bc8bc-faab-4e68-8387-c9aa316d8cee

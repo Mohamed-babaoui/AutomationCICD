@@ -1,0 +1,13 @@
+
+¯
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ê—ðµ8”ÅÑ©þ1J$609da3e5-7b8c-4349-895b-c8a34d1b1ef8
+º
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ê—ðµ8•ÅÑ©þ1J$a93c892a-5463-4258-a38d-d8ea5ee8844d
+™
+java:S3415"VSwap these 2 arguments so they are in the correct order: actual value, expected value.(„•·²8•ÅÑ©þ1J$2bd4467d-7836-4077-b396-d97380c65e59
+‰
+java:S1128"ARemove this unused import 'com.sun.net.httpserver.Authenticator'.(Ì¢×€úÿÿÿÿ8ºüÓ©þ1J$29b246f2-aef0-4100-9feb-388bbdaad45e
+v
+java:S1128"3Remove this unused import 'org.testng.AssertJUnit'.(ÊÝÁ‘8ºüÓ©þ1J$524d4ca1-8bff-477c-8974-a8c3cc013e1c
+f
+java:S1128"Remove this duplicated import.(á½úáùÿÿÿÿ8™ÅÑ©þ1J$01dd31a9-a70a-490e-b055-75e8400dbf9e

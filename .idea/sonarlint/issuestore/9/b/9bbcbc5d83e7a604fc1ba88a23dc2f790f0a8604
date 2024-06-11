@@ -1,0 +1,10 @@
+
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(±øÓ—ıÿÿÿÿ8¹øÑªş1J$878dbec2-ccab-4f68-b1eb-db2618925caf
+º
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(æÇ°¶8ÈøÑªş1J$8c101a46-1f7d-4d09-8fea-11e98eb3a149
+}
+java:S1128":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ8ÔøÑªş1J$fafe7a15-91ed-4b1f-bf58-b901a063e4af
+€
+java:S1128"=Remove this unused import 'org.testng.annotations.AfterTest'.(Ü³¹Ê8ÕøÑªş1J$14cf3d2f-11e1-4e8b-bb95-ba563dfaf5e8
+†
+java:S1128	">Remove this unused import 'org.testng.annotations.BeforeTest'.(‚µö¨üÿÿÿÿ8ÕøÑªş1J$1ed49456-91db-4abc-897b-3467117e2fd6

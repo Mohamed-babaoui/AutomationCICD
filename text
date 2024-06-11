@@ -1,0 +1,7 @@
+Actions a = new Actions(driver);
+        a.sendKeys(driver.findElement(with(By.cssSelector(".user__address input"))),"Morocco")
+                .build()
+                .perform();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".ta-item")));
+        driver.findElement(with(By.cssSelector(".ta-item"))).click();
+        driver.findElement(with(By.cssSelector(".btnn"))).click();

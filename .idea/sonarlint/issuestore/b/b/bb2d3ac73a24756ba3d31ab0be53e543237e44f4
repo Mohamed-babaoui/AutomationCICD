@@ -1,0 +1,19 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–á‹Ãþÿÿÿÿ
+M
+java:S2387"7"driver" is the name of a field in "AbstratComponents".(æ¹•‹
+V	java:S125"<This block of commented-out lines of code should be removed.(—ýðøÿÿÿÿ
+c	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ýþ–Ê
+@	java:S106*"+Replace this use of System.out by a logger.(Û’Þ€
+E	java:S106."+Replace this use of System.out by a logger.(ú¥ÌÀüÿÿÿÿ
+i
+java:S1128
+"NRemove this unused import 'org.openqa.selenium.support.ui.ExpectedConditions'.(û€Èéúÿÿÿÿ
+_
+java:S1128"IRemove this unused import 'org.openqa.selenium.support.ui.WebDriverWait'.(¥÷ó
+D
+java:S1128".Remove this unused import 'org.testng.Assert'.(Ø£ÿ§
+J
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
