@@ -87,7 +87,7 @@ public class Listeners extends BaseTest implements ITestListener {
 
     }
     private void logRetryCount(ITestResult result) {
-        Object retryAnalyzer = result.getMethod().getRetryAnalyzer();
+        Object retryAnalyzer = result.getMethod().getRetryAnalyzer(result);
         if (retryAnalyzer instanceof Retry) {
             int retryCount = ((Retry) retryAnalyzer).getCount();
             test.info("Retry count: " + retryCount);

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/a904051/IdeaProjects/SeleniumFrameworkDesign/src/test/java/org/LoginTest.java"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="19,508">
+  <properties />
+  
+  
+            <testcase name="loginTest" time="0,644" classname="org.tests.LoginTest" />
+                <testcase name="cardTest" time="1,670" classname="org.tests.LoginTest" />
+                <testcase name="confirmationTest" time="0,603" classname="org.tests.LoginTest" />
+                <testcase name="checkoutTest" time="4,987" classname="org.tests.LoginTest" />
+                <testcase name="productTest" time="11,604" classname="org.tests.LoginTest" />
+      
+</testsuite>

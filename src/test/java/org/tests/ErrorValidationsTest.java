@@ -20,7 +20,7 @@ public class ErrorValidationsTest extends BaseTest {
     String password = "Password@2019";
 
 
-    @Test(groups = {"ErroHandling"})
+    @Test(groups= {"ErrorHandling"})
     public void LoginErrorValidation() {
 
         landingClass.LoginMethod("anshika@gmal.com", "Iamki000");

@@ -1,7 +1,7 @@
 package org.TestComponents;
 
-
 import PageObjects.LandingPage;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
@@ -11,38 +11,30 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.io.FileHandler;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.time.Duration;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
-import com.fasterxml.jackson.core.type.TypeReference;
 
 
-public class BaseTest {
+public class BaseTest2 {
     public WebDriver driver;
     public LandingPage landingClass;
     public List<String> productsList;
 
 
     public WebDriver initializeDriver(){
-        String browserMode =  System.getProperty("browserMode");
-        ChromeOptions options= new ChromeOptions();
-
-
-        if(browserMode.equalsIgnoreCase("headless")){
-            options.addArguments("headless");
-        }
-
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver(options);
-        driver.manage().window().setSize(new Dimension(1440,900));//full screen
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
         return  driver;
     }
     public void  getProducts() throws IOException {
