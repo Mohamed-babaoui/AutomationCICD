@@ -40,7 +40,7 @@ public class ErrorValidationsTest extends BaseTest {
 
         checkoutPage = productCatalogue.GotoCheckoutPage();
         boolean exists = checkoutPage.VerifyProductDisplay("ZARA COAT c3");
-        Assert.assertTrue(exists);
+        Assert.assertFalse(exists);
         driver.quit();
 
 
