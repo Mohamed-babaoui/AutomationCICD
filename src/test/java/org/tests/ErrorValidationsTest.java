@@ -11,7 +11,7 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-//I added this comment just to test how git push would trigger jenkins job
+//I added this comment just to test how git push would trigger jenkins job creation
 public class ErrorValidationsTest extends BaseTest {
     ProductsCatalogue productCatalogue;
     CheckoutPage checkoutPage;
